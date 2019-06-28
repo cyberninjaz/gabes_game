@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script src="JSForProject3.js"></script>
+        <style>
+            body{
+                background-color: rgb(0, 132, 255);
+                color: #fcb085;
+                font-weight: bold;
+                font-size: 14pt;
+                font-family: monospace;
+            }
+            h1 {
+                font: 2.5em Arial;
+                text-decoration: underline;
+            }
+            canvas{
+                background-color:black;
+            }
+            #col1 {
+                width: 450px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            #col2 {
+                width: calc(95% - 450px);
+                display: inline-block;
+                vertical-align: middle;
+            }
+            #col2 p {
+                max-width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="col1">
+            <h1>The Ultimate Game!!!</h1>
+            <canvas width="400" height="400" id="CanvasGame"></canvas>
+            <div id="score">Click the canvas to start!</div>
+            <div id="HighScore">High Score:</div>
+            <div id="Losing"></div>
+            <button id="Reset">Reset</button>
+            <p>By: Gabriel Amha. Coded in Javascript.</p>
+        </div>
+        <div id="col2">
+                <p id="desc">This the ultimate game. Move your mouse up and down to move the ball through the spaces.</p>
+        
+        </div>
+    </body>
+</html>
